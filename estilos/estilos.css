@@ -1,112 +1,129 @@
+before {
+  background-color: rgba(51, 68, 187, 0.8666666667) body;
+}
+
+.button, .secondary-button, .primary-button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: red;
+  background-color: blue;
+}
+
+.primary-button {
+  background-color: green;
+}
+
+.secondary-button {
+  background-color: gray;
+}
+
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #f4f4f4;
-    color: #333;
-  }
-  
-  header {
-    background-color: #222;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  nav ul {
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-top: 10px;
-  }
-  
-  nav ul li {
-    margin: 0 15px;
-  }
-  
-  nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
-  }
-  
-  main {
-    padding: 20px;
-  }
-  
-  .intro {
-    text-align: center;
-    margin-bottom: 30px;
-  }
-  
-  .destacados h3 {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  
-  .productos {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    gap: 20px;
-  }
-  
-  .producto {
-    background: #fff;
-    padding: 15px;
-    border-radius: 10px;
-    width: 250px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    text-align: center;
-  }
-  
-  .producto img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-  }
-  
-  footer {
-    background-color: #222;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
-    margin-top: 40px;
-  }
-  
- .Tipos {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: #222;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
   display: flex;
   flex-direction: column;
-text-align: center;
-justify-content: center;
-padding: 0 1.2rem;
-height: 90%;
- }
+  justify-content: center;
+  margin-top: 10px;
+}
 
- .TiposDeFrenos {
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+main {
+  padding: 20px;
+}
+
+.intro {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.destacados h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.productos {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.producto {
+  background: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  width: 250px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.producto img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+footer {
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  margin-top: 40px;
+}
+
+.Tipos {
   display: flex;
   flex-direction: column;
-text-align: center;
-justify-content: center;
-padding: 0 1.2rem;
-height: 90%;
+  text-align: center;
+  justify-content: center;
+  padding: 0 1.2rem;
+  height: 90%;
+}
 
- }
-
- .SistemaDeSuspensiones {
-
+.TiposDeFrenos {
   display: flex;
   flex-direction: column;
-text-align: center;
-justify-content: center;
-padding: 0 1.2rem;
-height: 90%;
+  text-align: center;
+  justify-content: center;
+  padding: 0 1.2rem;
+  height: 90%;
+}
 
+.SistemaDeSuspensiones {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  padding: 0 1.2rem;
+  height: 90%;
+}
 
- }
+/*# sourceMappingURL=estilos.css.map */
