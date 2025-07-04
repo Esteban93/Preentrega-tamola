@@ -1,0 +1,12 @@
+$flexcomponents: (
+  display: flex,
+  flex-direction: column,
+  justify-content: center
+);
+
+button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: red;
+  background-color: blue;
+}
